@@ -1,0 +1,13 @@
+status = [
+  "continuous-integration/travis-ci/push",
+  "windows (2.4.x)",
+  "windows (2.5.x)",
+  "windows (2.6.x)"
+]
+
+timeout_sec = 14400
+delete_merged_branches = true
+
+[committer]
+name = "Bundlerbot"
+email = "bot@bundler.io"
